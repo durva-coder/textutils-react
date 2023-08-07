@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.blank{
+  color: #61dafb;
+}
+
+.accordion-button::after{
+  filter: invert(1);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
